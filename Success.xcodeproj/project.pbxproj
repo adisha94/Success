@@ -15,6 +15,8 @@
 		398BA4FC1BD80E3100E481FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398BA4FA1BD80E3100E481FF /* LaunchScreen.storyboard */; };
 		398BA5071BD80E3200E481FF /* SuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5061BD80E3200E481FF /* SuccessTests.swift */; };
 		398BA5121BD80E3200E481FF /* SuccessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5111BD80E3200E481FF /* SuccessUITests.swift */; };
+		398BA5251BD8118000E481FF /* Bernoulli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5241BD8118000E481FF /* Bernoulli.cpp */; settings = {ASSET_TAGS = (); }; };
+		398BA5271BD81C2B00E481FF /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5261BD81C2B00E481FF /* OtherController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		398BA50D1BD80E3200E481FF /* SuccessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuccessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398BA5111BD80E3200E481FF /* SuccessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessUITests.swift; sourceTree = "<group>"; };
 		398BA5131BD80E3200E481FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398BA51F1BD8110C00E481FF /* Success-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Success-Bridging-Header.h"; sourceTree = "<group>"; };
+		398BA5231BD8118000E481FF /* Bernoulli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bernoulli.h; sourceTree = "<group>"; };
+		398BA5241BD8118000E481FF /* Bernoulli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bernoulli.cpp; sourceTree = "<group>"; };
+		398BA5261BD81C2B00E481FF /* OtherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,15 @@
 			children = (
 				398BA4EE1BD80E3100E481FF /* AppDelegate.swift */,
 				398BA4F01BD80E3100E481FF /* ViewController.swift */,
+				398BA5261BD81C2B00E481FF /* OtherController.swift */,
+				398BA5231BD8118000E481FF /* Bernoulli.h */,
+				398BA5241BD8118000E481FF /* Bernoulli.cpp */,
 				398BA4F21BD80E3100E481FF /* Main.storyboard */,
 				398BA4F81BD80E3100E481FF /* Assets.xcassets */,
 				398BA4FA1BD80E3100E481FF /* LaunchScreen.storyboard */,
 				398BA4FD1BD80E3100E481FF /* Info.plist */,
 				398BA4F51BD80E3100E481FF /* Success.xcdatamodeld */,
+				398BA51F1BD8110C00E481FF /* Success-Bridging-Header.h */,
 			);
 			path = Success;
 			sourceTree = "<group>";
@@ -190,6 +200,7 @@
 		398BA4E31BD80E3100E481FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Mega Saga Industries";
 				TargetAttributes = {
@@ -259,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				398BA4F11BD80E3100E481FF /* ViewController.swift in Sources */,
+				398BA5271BD81C2B00E481FF /* OtherController.swift in Sources */,
 				398BA4EF1BD80E3100E481FF /* AppDelegate.swift in Sources */,
+				398BA5251BD8118000E481FF /* Bernoulli.cpp in Sources */,
 				398BA4F71BD80E3100E481FF /* Success.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,10 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Success/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MSI.Success;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Success/Success-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,10 +429,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Success/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MSI.Success;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Success/Success-Bridging-Header.h";
 			};
 			name = Release;
 		};

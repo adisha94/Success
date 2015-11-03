@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393830531BE87C520099FD96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 393830521BE87C520099FD96 /* main.cpp */; };
+		3938305B1BE87D350099FD96 /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3938305A1BE87D350099FD96 /* Sort.cpp */; };
+		3938305C1BE87D350099FD96 /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3938305A1BE87D350099FD96 /* Sort.cpp */; };
+		3938305D1BE883410099FD96 /* Bernoulli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5241BD8118000E481FF /* Bernoulli.cpp */; };
 		398BA4EF1BD80E3100E481FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA4EE1BD80E3100E481FF /* AppDelegate.swift */; };
 		398BA4F11BD80E3100E481FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA4F01BD80E3100E481FF /* ViewController.swift */; };
 		398BA4F41BD80E3100E481FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398BA4F21BD80E3100E481FF /* Main.storyboard */; };
@@ -15,8 +19,7 @@
 		398BA4FC1BD80E3100E481FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398BA4FA1BD80E3100E481FF /* LaunchScreen.storyboard */; };
 		398BA5071BD80E3200E481FF /* SuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5061BD80E3200E481FF /* SuccessTests.swift */; };
 		398BA5121BD80E3200E481FF /* SuccessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5111BD80E3200E481FF /* SuccessUITests.swift */; };
-		398BA5251BD8118000E481FF /* Bernoulli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5241BD8118000E481FF /* Bernoulli.cpp */; settings = {ASSET_TAGS = (); }; };
-		398BA5271BD81C2B00E481FF /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5261BD81C2B00E481FF /* OtherController.swift */; settings = {ASSET_TAGS = (); }; };
+		398BA5271BD81C2B00E481FF /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5261BD81C2B00E481FF /* OtherController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3938304E1BE87C520099FD96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		393830501BE87C520099FD96 /* Tester */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tester; sourceTree = BUILT_PRODUCTS_DIR; };
+		393830521BE87C520099FD96 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		393830581BE87D350099FD96 /* EaseOfAccesss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseOfAccesss.h; sourceTree = "<group>"; };
+		393830591BE87D350099FD96 /* Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		3938305A1BE87D350099FD96 /* Sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sort.cpp; sourceTree = "<group>"; };
 		398BA4EB1BD80E3100E481FF /* Success.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Success.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		398BA4EE1BD80E3100E481FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		398BA4F01BD80E3100E481FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +78,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3938304D1BE87C520099FD96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		398BA4E81BD80E3100E481FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,12 +109,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		393830511BE87C520099FD96 /* Tester */ = {
+			isa = PBXGroup;
+			children = (
+				393830521BE87C520099FD96 /* main.cpp */,
+			);
+			path = Tester;
+			sourceTree = "<group>";
+		};
 		398BA4E21BD80E3100E481FF = {
 			isa = PBXGroup;
 			children = (
 				398BA4ED1BD80E3100E481FF /* Success */,
 				398BA5051BD80E3200E481FF /* SuccessTests */,
 				398BA5101BD80E3200E481FF /* SuccessUITests */,
+				393830511BE87C520099FD96 /* Tester */,
 				398BA4EC1BD80E3100E481FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +134,7 @@
 				398BA4EB1BD80E3100E481FF /* Success.app */,
 				398BA5021BD80E3200E481FF /* SuccessTests.xctest */,
 				398BA50D1BD80E3200E481FF /* SuccessUITests.xctest */,
+				393830501BE87C520099FD96 /* Tester */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +147,9 @@
 				398BA5261BD81C2B00E481FF /* OtherController.swift */,
 				398BA5231BD8118000E481FF /* Bernoulli.h */,
 				398BA5241BD8118000E481FF /* Bernoulli.cpp */,
+				393830581BE87D350099FD96 /* EaseOfAccesss.h */,
+				393830591BE87D350099FD96 /* Sort.h */,
+				3938305A1BE87D350099FD96 /* Sort.cpp */,
 				398BA4F21BD80E3100E481FF /* Main.storyboard */,
 				398BA4F81BD80E3100E481FF /* Assets.xcassets */,
 				398BA4FA1BD80E3100E481FF /* LaunchScreen.storyboard */,
@@ -141,6 +181,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3938304F1BE87C520099FD96 /* Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 393830561BE87C520099FD96 /* Build configuration list for PBXNativeTarget "Tester" */;
+			buildPhases = (
+				3938304C1BE87C520099FD96 /* Sources */,
+				3938304D1BE87C520099FD96 /* Frameworks */,
+				3938304E1BE87C520099FD96 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tester;
+			productName = Tester;
+			productReference = 393830501BE87C520099FD96 /* Tester */;
+			productType = "com.apple.product-type.tool";
+		};
 		398BA4EA1BD80E3100E481FF /* Success */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 398BA5161BD80E3200E481FF /* Build configuration list for PBXNativeTarget "Success" */;
@@ -204,6 +261,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Mega Saga Industries";
 				TargetAttributes = {
+					3938304F1BE87C520099FD96 = {
+						CreatedOnToolsVersion = 7.1;
+					};
 					398BA4EA1BD80E3100E481FF = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
@@ -233,6 +293,7 @@
 				398BA4EA1BD80E3100E481FF /* Success */,
 				398BA5011BD80E3200E481FF /* SuccessTests */,
 				398BA50C1BD80E3200E481FF /* SuccessUITests */,
+				3938304F1BE87C520099FD96 /* Tester */,
 			);
 		};
 /* End PBXProject section */
@@ -265,14 +326,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3938304C1BE87C520099FD96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3938305C1BE87D350099FD96 /* Sort.cpp in Sources */,
+				393830531BE87C520099FD96 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		398BA4E71BD80E3100E481FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				398BA4F11BD80E3100E481FF /* ViewController.swift in Sources */,
 				398BA5271BD81C2B00E481FF /* OtherController.swift in Sources */,
+				3938305D1BE883410099FD96 /* Bernoulli.cpp in Sources */,
 				398BA4EF1BD80E3100E481FF /* AppDelegate.swift in Sources */,
-				398BA5251BD8118000E481FF /* Bernoulli.cpp in Sources */,
+				3938305B1BE87D350099FD96 /* Sort.cpp in Sources */,
 				398BA4F71BD80E3100E481FF /* Success.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +399,26 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		393830541BE87C520099FD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		393830551BE87C520099FD96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		398BA5141BD80E3200E481FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -489,6 +580,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		393830561BE87C520099FD96 /* Build configuration list for PBXNativeTarget "Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393830541BE87C520099FD96 /* Debug */,
+				393830551BE87C520099FD96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		398BA4E61BD80E3100E481FF /* Build configuration list for PBXProject "Success" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -505,6 +604,7 @@
 				398BA5181BD80E3200E481FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398BA5191BD80E3200E481FF /* Build configuration list for PBXNativeTarget "SuccessTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +613,7 @@
 				398BA51B1BD80E3200E481FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398BA51C1BD80E3200E481FF /* Build configuration list for PBXNativeTarget "SuccessUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +622,7 @@
 				398BA51E1BD80E3200E481FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

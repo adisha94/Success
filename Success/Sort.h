@@ -19,7 +19,7 @@
 
 void SortSmallestoLargest(int a[], int number_used);
 void SortLargestoSmall(int a[], int number_used);
-void swap_values(int &a, int &b);
-int index_of_smallest(const int a[], int start_index, int number_used);
-int index_of_largest(const int a[], int start_index, int number_used);
+void Swap_values(int &a, int &b);
+int Index_of_smallest(const int a[], int start_index, int number_used);
+int Index_of_largest(const int a[], int start_index, int number_used);
 #endif

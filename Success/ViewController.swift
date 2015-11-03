@@ -34,6 +34,7 @@ class ViewController: UIViewController
 
     
     @IBOutlet weak var ProbabilityChecker: UILabel!
+
     @IBAction func ProbabilityV1()
     {
         var probabilityCheckerFloat = Float(ProbabilityChecker.text!)
@@ -44,7 +45,6 @@ class ViewController: UIViewController
     
     @IBAction func FactorialFunction()
     {
-        
         Factorial(Int32(nStorage.text!)!)
     }
 }

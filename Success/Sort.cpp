@@ -31,7 +31,7 @@ void SortLargestoSmall(int a[], int number_used)
 }
 
 
-void swap_values(int &a, int &b)
+void Swap_values(int &a, int &b)
 {
     int temp;
     temp = a;
@@ -39,7 +39,7 @@ void swap_values(int &a, int &b)
     b = temp;
 }
 
-int index_of_smallest(const int a[], int start_index, int number_used)
+int Index_of_smallest(const int a[], int start_index, int number_used)
 {
     int min = a[start_index], index_of_min = start_index;
     for (int i = start_index + 1; i < number_used; i++)
@@ -53,7 +53,7 @@ int index_of_smallest(const int a[], int start_index, int number_used)
         return index_of_min;
 }
 
-int index_of_largest(const int a[], int start_index, int number_used)
+int Index_of_largest(const int a[], int start_index, int number_used)
 {
     int max = a[start_index], index_of_max = start_index;
     for (int i = start_index + 1; i < number_used; i++)
@@ -62,7 +62,6 @@ int index_of_largest(const int a[], int start_index, int number_used)
         {
             max = a[i];
             index_of_max = i;
-            
         }
     }
     return index_of_max;

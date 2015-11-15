@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390B11D01BED478600F19FD9 /* Bernoulli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5241BD8118000E481FF /* Bernoulli.cpp */; };
 		393830531BE87C520099FD96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 393830521BE87C520099FD96 /* main.cpp */; };
 		3938305B1BE87D350099FD96 /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3938305A1BE87D350099FD96 /* Sort.cpp */; };
 		3938305C1BE87D350099FD96 /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3938305A1BE87D350099FD96 /* Sort.cpp */; };
@@ -332,6 +333,7 @@
 			files = (
 				3938305C1BE87D350099FD96 /* Sort.cpp in Sources */,
 				393830531BE87C520099FD96 /* main.cpp in Sources */,
+				390B11D01BED478600F19FD9 /* Bernoulli.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +589,7 @@
 				393830551BE87C520099FD96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398BA4E61BD80E3100E481FF /* Build configuration list for PBXProject "Success" */ = {
 			isa = XCConfigurationList;

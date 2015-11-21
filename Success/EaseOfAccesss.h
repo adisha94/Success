@@ -11,14 +11,12 @@
 #define C___Central_EaseOfAccesss_h
 
 
-#include <iostream>
-#include <fstream>
+#include <stdio.h>
 #include <stdlib.h>
-#include <cstdlib>
+#include <math.h>
 #include <unistd.h> // for changing the directory of file locations and stuff like that.
-#include <string>
-#include <cctype> // what is this portion about again?
 #include <time.h>
+
 using namespace std;
 
 

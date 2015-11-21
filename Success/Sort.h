@@ -17,9 +17,37 @@
 #define C___Central_Sort_h
 
 
+/**
+ *
+ * Sorts from the smallest to the largest values.
+ *
+ **/
 void SortSmallestoLargest(int a[], int number_used);
+
+/**
+ *
+ * Sorts from the largest to the smallest value.
+ *
+ **/
 void SortLargestoSmall(int a[], int number_used);
+
+/**
+ *
+ * Simple swap function
+ *  Swamps values
+ **/
 void Swap_values(int &a, int &b);
+
+/**
+ *
+ * Sorts from the snallest to the largest index.
+ *
+ **/
 int Index_of_smallest(const int a[], int start_index, int number_used);
+
+/**
+ *
+ *Sorts from the largest to the smallest index.
+ **/
 int Index_of_largest(const int a[], int start_index, int number_used);
 #endif

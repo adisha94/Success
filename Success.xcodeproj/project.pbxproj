@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		390B11D01BED478600F19FD9 /* Bernoulli.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5241BD8118000E481FF /* Bernoulli.cpp */; };
+		391E83431C000D8B00FEB24E /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 391E83401C000D8B00FEB24E /* Test.cpp */; };
+		391E83491C0010BA00FEB24E /* test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 391E83481C0010BA00FEB24E /* test2.cpp */; };
+		391E834A1C0010BA00FEB24E /* test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 391E83481C0010BA00FEB24E /* test2.cpp */; };
 		393830531BE87C520099FD96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 393830521BE87C520099FD96 /* main.cpp */; };
 		3938305B1BE87D350099FD96 /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3938305A1BE87D350099FD96 /* Sort.cpp */; };
 		3938305C1BE87D350099FD96 /* Sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3938305A1BE87D350099FD96 /* Sort.cpp */; };
@@ -53,6 +56,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		391E83401C000D8B00FEB24E /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		391E83411C000D8B00FEB24E /* Test.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Test.hpp; sourceTree = "<group>"; };
+		391E83481C0010BA00FEB24E /* test2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test2.cpp; sourceTree = "<group>"; };
 		393830501BE87C520099FD96 /* Tester */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tester; sourceTree = BUILT_PRODUCTS_DIR; };
 		393830521BE87C520099FD96 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		393830581BE87D350099FD96 /* EaseOfAccesss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseOfAccesss.h; sourceTree = "<group>"; };
@@ -147,9 +153,12 @@
 				398BA4F01BD80E3100E481FF /* ViewController.swift */,
 				398BA5261BD81C2B00E481FF /* OtherController.swift */,
 				398BA5231BD8118000E481FF /* Bernoulli.h */,
-				398BA5241BD8118000E481FF /* Bernoulli.cpp */,
+				391E83411C000D8B00FEB24E /* Test.hpp */,
 				393830581BE87D350099FD96 /* EaseOfAccesss.h */,
+				391E83481C0010BA00FEB24E /* test2.cpp */,
 				393830591BE87D350099FD96 /* Sort.h */,
+				398BA5241BD8118000E481FF /* Bernoulli.cpp */,
+				391E83401C000D8B00FEB24E /* Test.cpp */,
 				3938305A1BE87D350099FD96 /* Sort.cpp */,
 				398BA4F21BD80E3100E481FF /* Main.storyboard */,
 				398BA4F81BD80E3100E481FF /* Assets.xcassets */,
@@ -332,8 +341,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3938305C1BE87D350099FD96 /* Sort.cpp in Sources */,
+				391E83431C000D8B00FEB24E /* Test.cpp in Sources */,
 				393830531BE87C520099FD96 /* main.cpp in Sources */,
 				390B11D01BED478600F19FD9 /* Bernoulli.cpp in Sources */,
+				391E834A1C0010BA00FEB24E /* test2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +358,7 @@
 				398BA4EF1BD80E3100E481FF /* AppDelegate.swift in Sources */,
 				3938305B1BE87D350099FD96 /* Sort.cpp in Sources */,
 				398BA4F71BD80E3100E481FF /* Success.xcdatamodeld in Sources */,
+				391E83491C0010BA00FEB24E /* test2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

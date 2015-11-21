@@ -14,8 +14,8 @@ void SortSmallestoLargest(int a[], int number_used)
     int index_of_next_smallest;
     for (int i = 0; i < number_used - 1; i++)
     {
-        index_of_next_smallest = index_of_smallest(a, i, number_used);
-        swap_values(a[i], a[index_of_next_smallest]);
+        index_of_next_smallest = Index_of_smallest(a, i, number_used);
+        Swap_values(a[i], a[index_of_next_smallest]);
     }
 }
 
@@ -25,8 +25,8 @@ void SortLargestoSmall(int a[], int number_used)
     int index_of_next_largest;
     for (int i = 0; i < number_used - 1; i++)
     {
-        index_of_next_largest = index_of_largest(a, i, number_used);
-        swap_values(a[i], a[index_of_next_largest]);
+        index_of_next_largest = Index_of_largest(a, i, number_used);
+        Swap_values(a[i], a[index_of_next_largest]);
     }
 }
 

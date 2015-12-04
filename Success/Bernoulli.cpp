@@ -7,11 +7,20 @@
 //
 
 #include "Bernoulli.h"
+#include <limits.h>
+#include <math.h>
 int C(int chosen, int total)
 {
     int combo = Factorial(total) / ( Factorial(chosen) * Factorial(total - chosen) );
     return  combo;
 }
+
+int P (int total, int chosen)
+{
+    int permu = Factorial(total) / (Factorial(total - chosen));
+    return permu;
+}
+
 
 int Factorial(int n)
 {
@@ -38,6 +47,5 @@ float Bernoulli(int n, int k, float p)
 
 float SimpleProbability(int chosen, int total)
 {
-    float answer = chosen / total;
-    return answer;
+    return chosen / total;
 }

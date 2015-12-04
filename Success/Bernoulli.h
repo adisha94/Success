@@ -12,8 +12,9 @@
 #include <stdio.h>
 #include <math.h>
 #include <limits.h> // probably calculus functions
-int C (int total, int chosen);// combination
-int Factorial(int n); // while the value of 'n' is not 1, keep multiplying through until they reach one. Then stop.
+int C (int total, int chosen); // combination
+int P (int total, int chosen); // permutation
+int Factorial(int n); // while the value of 'n' is not 1, keep multiplying through until they reach one.
 float Bernoulli(int n, int k, int p);
 float SimpleProbability(int chosen, int total);
 

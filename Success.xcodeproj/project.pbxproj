@@ -211,8 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				39EBD08E1C2A517200DC4576 /* C++ Headers */,
-				398BA5241BD8118000E481FF /* Bernoulli.cpp */,
-				3938305A1BE87D350099FD96 /* Sort.cpp */,
+				39EBD0921C2A526A00DC4576 /* C++ Source Files */,
 				39EBD08F1C2A519D00DC4576 /* BernoulliWrapper.h */,
 				39EBD0901C2A519D00DC4576 /* BernoulliWrapper.mm */,
 			);
@@ -227,6 +226,15 @@
 				393830591BE87D350099FD96 /* Sort.h */,
 			);
 			name = "C++ Headers";
+			sourceTree = "<group>";
+		};
+		39EBD0921C2A526A00DC4576 /* C++ Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				398BA5241BD8118000E481FF /* Bernoulli.cpp */,
+				3938305A1BE87D350099FD96 /* Sort.cpp */,
+			);
+			name = "C++ Source Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

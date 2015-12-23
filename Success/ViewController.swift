@@ -37,9 +37,7 @@ class ViewController: UIViewController
 
     @IBAction func ProbabilityV1()
     {
-        var probabilityCheckerFloat = Float(ProbabilityChecker.text!)
-        probabilityCheckerFloat = SimpleProbability(Int32(pStorage.text!)!, Int32(nStorage.text!)!,
-        print("Value is + \(SimpleProbability(Int32(pStorage.text!)!, Int32(nStorage.text!)!))"),
+        var probabilityCheckerFloat = Float
     }
 //    
 //    @IBAction func FactorialFunction()

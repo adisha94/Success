@@ -21,6 +21,7 @@
 		398BA5071BD80E3200E481FF /* SuccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5061BD80E3200E481FF /* SuccessTests.swift */; };
 		398BA5121BD80E3200E481FF /* SuccessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5111BD80E3200E481FF /* SuccessUITests.swift */; };
 		398BA5271BD81C2B00E481FF /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5261BD81C2B00E481FF /* OtherController.swift */; };
+		39EBD0761C2A439100DC4576 /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 39EBD0751C2A439100DC4576 /* Settings-Watch.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		398BA5231BD8118000E481FF /* Bernoulli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bernoulli.h; sourceTree = "<group>"; };
 		398BA5241BD8118000E481FF /* Bernoulli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bernoulli.cpp; sourceTree = "<group>"; };
 		398BA5261BD81C2B00E481FF /* OtherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherController.swift; sourceTree = "<group>"; };
+		39EBD0751C2A439100DC4576 /* Settings-Watch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "Settings-Watch.bundle"; path = "SuccessTests/Settings-Watch.bundle"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				393830591BE87D350099FD96 /* Sort.h */,
 				398BA5241BD8118000E481FF /* Bernoulli.cpp */,
 				3938305A1BE87D350099FD96 /* Sort.cpp */,
+				39EBD0751C2A439100DC4576 /* Settings-Watch.bundle */,
 				398BA4F21BD80E3100E481FF /* Main.storyboard */,
 				398BA4F81BD80E3100E481FF /* Assets.xcassets */,
 				398BA4FA1BD80E3100E481FF /* LaunchScreen.storyboard */,
@@ -306,6 +309,7 @@
 			files = (
 				398BA4FC1BD80E3100E481FF /* LaunchScreen.storyboard in Resources */,
 				398BA4F91BD80E3100E481FF /* Assets.xcassets in Resources */,
+				39EBD0761C2A439100DC4576 /* Settings-Watch.bundle in Resources */,
 				398BA4F41BD80E3100E481FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

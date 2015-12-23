@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface BernoulliWrapper : NSObject
-
+-(NSInteger) C: (NSInteger) chosen
 @end

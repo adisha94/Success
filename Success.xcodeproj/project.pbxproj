@@ -22,6 +22,7 @@
 		398BA5121BD80E3200E481FF /* SuccessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5111BD80E3200E481FF /* SuccessUITests.swift */; };
 		398BA5271BD81C2B00E481FF /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5261BD81C2B00E481FF /* OtherController.swift */; };
 		39EBD0761C2A439100DC4576 /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 39EBD0751C2A439100DC4576 /* Settings-Watch.bundle */; };
+		39EBD0811C2A49E000DC4576 /* TestCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39EBD07F1C2A49E000DC4576 /* TestCpp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		398BA5241BD8118000E481FF /* Bernoulli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bernoulli.cpp; sourceTree = "<group>"; };
 		398BA5261BD81C2B00E481FF /* OtherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherController.swift; sourceTree = "<group>"; };
 		39EBD0751C2A439100DC4576 /* Settings-Watch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "Settings-Watch.bundle"; path = "SuccessTests/Settings-Watch.bundle"; sourceTree = SOURCE_ROOT; };
+		39EBD07F1C2A49E000DC4576 /* TestCpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestCpp.cpp; sourceTree = "<group>"; };
+		39EBD0801C2A49E000DC4576 /* TestCpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestCpp.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 				398BA5261BD81C2B00E481FF /* OtherController.swift */,
 				398BA5241BD8118000E481FF /* Bernoulli.cpp */,
 				3938305A1BE87D350099FD96 /* Sort.cpp */,
+				39EBD07F1C2A49E000DC4576 /* TestCpp.cpp */,
+				39EBD0801C2A49E000DC4576 /* TestCpp.hpp */,
 				39EBD0751C2A439100DC4576 /* Settings-Watch.bundle */,
 				398BA4F21BD80E3100E481FF /* Main.storyboard */,
 				398BA4F81BD80E3100E481FF /* Assets.xcassets */,
@@ -347,6 +352,7 @@
 			files = (
 				398BA4F11BD80E3100E481FF /* ViewController.swift in Sources */,
 				398BA5271BD81C2B00E481FF /* OtherController.swift in Sources */,
+				39EBD0811C2A49E000DC4576 /* TestCpp.cpp in Sources */,
 				3938305D1BE883410099FD96 /* Bernoulli.cpp in Sources */,
 				398BA4EF1BD80E3100E481FF /* AppDelegate.swift in Sources */,
 				3938305B1BE87D350099FD96 /* Sort.cpp in Sources */,

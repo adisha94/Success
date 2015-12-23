@@ -24,6 +24,7 @@
 		39EBD0761C2A439100DC4576 /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 39EBD0751C2A439100DC4576 /* Settings-Watch.bundle */; };
 		39EBD0811C2A49E000DC4576 /* TestCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39EBD07F1C2A49E000DC4576 /* TestCpp.cpp */; };
 		39EBD0871C2A4D2000DC4576 /* TestingCppClassWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39EBD0861C2A4D2000DC4576 /* TestingCppClassWrapper.mm */; };
+		39EBD0911C2A519D00DC4576 /* BernoulliWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39EBD0901C2A519D00DC4576 /* BernoulliWrapper.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,8 @@
 		39EBD0801C2A49E000DC4576 /* TestCpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestCpp.hpp; sourceTree = "<group>"; };
 		39EBD0851C2A4D2000DC4576 /* TestingCppClassWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingCppClassWrapper.h; sourceTree = "<group>"; };
 		39EBD0861C2A4D2000DC4576 /* TestingCppClassWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TestingCppClassWrapper.mm; sourceTree = "<group>"; };
+		39EBD08F1C2A519D00DC4576 /* BernoulliWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BernoulliWrapper.h; sourceTree = "<group>"; };
+		39EBD0901C2A519D00DC4576 /* BernoulliWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BernoulliWrapper.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,13 +210,23 @@
 		39EBD08D1C2A511D00DC4576 /* C++ Files */ = {
 			isa = PBXGroup;
 			children = (
+				39EBD08E1C2A517200DC4576 /* C++ Headers */,
+				398BA5241BD8118000E481FF /* Bernoulli.cpp */,
+				3938305A1BE87D350099FD96 /* Sort.cpp */,
+				39EBD08F1C2A519D00DC4576 /* BernoulliWrapper.h */,
+				39EBD0901C2A519D00DC4576 /* BernoulliWrapper.mm */,
+			);
+			name = "C++ Files";
+			sourceTree = "<group>";
+		};
+		39EBD08E1C2A517200DC4576 /* C++ Headers */ = {
+			isa = PBXGroup;
+			children = (
 				398BA5231BD8118000E481FF /* Bernoulli.h */,
 				393830581BE87D350099FD96 /* EaseOfAccesss.h */,
 				393830591BE87D350099FD96 /* Sort.h */,
-				398BA5241BD8118000E481FF /* Bernoulli.cpp */,
-				3938305A1BE87D350099FD96 /* Sort.cpp */,
 			);
-			name = "C++ Files";
+			name = "C++ Headers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				398BA4F11BD80E3100E481FF /* ViewController.swift in Sources */,
+				39EBD0911C2A519D00DC4576 /* BernoulliWrapper.mm in Sources */,
 				39EBD0871C2A4D2000DC4576 /* TestingCppClassWrapper.mm in Sources */,
 				398BA5271BD81C2B00E481FF /* OtherController.swift in Sources */,
 				39EBD0811C2A49E000DC4576 /* TestCpp.cpp in Sources */,

@@ -31,7 +31,7 @@ void SortLargestoSmall(int a[], int number_used)
 }
 
 
-void Swap_values(int &a, int &b)
+void Swap_values(int a, int b)
 {
     int temp;
     temp = a;

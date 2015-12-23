@@ -145,12 +145,12 @@
 		398BA4ED1BD80E3100E481FF /* Success */ = {
 			isa = PBXGroup;
 			children = (
-				398BA4EE1BD80E3100E481FF /* AppDelegate.swift */,
-				398BA4F01BD80E3100E481FF /* ViewController.swift */,
-				398BA5261BD81C2B00E481FF /* OtherController.swift */,
 				398BA5231BD8118000E481FF /* Bernoulli.h */,
 				393830581BE87D350099FD96 /* EaseOfAccesss.h */,
 				393830591BE87D350099FD96 /* Sort.h */,
+				398BA4EE1BD80E3100E481FF /* AppDelegate.swift */,
+				398BA4F01BD80E3100E481FF /* ViewController.swift */,
+				398BA5261BD81C2B00E481FF /* OtherController.swift */,
 				398BA5241BD8118000E481FF /* Bernoulli.cpp */,
 				3938305A1BE87D350099FD96 /* Sort.cpp */,
 				39EBD0751C2A439100DC4576 /* Settings-Watch.bundle */,

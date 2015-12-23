@@ -37,12 +37,13 @@ class ViewController: UIViewController
 
     @IBAction func ProbabilityV1()
     {
-        var probabilityCheckerFloat = Float
+//        var probabilityCheckerFloat = Float
     }
 //    
-//    @IBAction func FactorialFunction()
-//    {
-//        Factorial(Int32(nStorage.text!)!)
-//    }
+    @IBAction func FactorialFunction()
+    {
+        print("Factorial Button pressed")
+        Factorial(Int32(nStorage.text!)!)
+    }
 }
 

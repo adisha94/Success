@@ -191,8 +191,8 @@
 			children = (
 				39EBD0851C2A4D2000DC4576 /* TestingCppClassWrapper.h */,
 				39EBD0861C2A4D2000DC4576 /* TestingCppClassWrapper.mm */,
-				39EBD07F1C2A49E000DC4576 /* TestCpp.cpp */,
 				39EBD0801C2A49E000DC4576 /* TestCpp.hpp */,
+				39EBD07F1C2A49E000DC4576 /* TestCpp.cpp */,
 			);
 			name = "Testing C++ Files";
 			sourceTree = "<group>";

@@ -7,7 +7,11 @@
 //
 
 #import "BernoulliWrapper.h"
-
+#import "Bernoulli.h"
 @implementation BernoulliWrapper
 
+-(NSInteger) C: (NSInteger) chosen total: (NSInteger) total
+{
+    NSInteger combo = Factorial:chosen / (Factorial:(total - chosen)
+}
 @end

@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController
 {
 
@@ -27,16 +28,17 @@ class ViewController: UIViewController
     @IBOutlet weak var kStorage: UITextField!
     @IBOutlet weak var qStorage: UITextField!
     
-//    @IBAction func BernoulliEquation()
-//    {
-//    }
+    @IBAction func BernoulliEquation()
+    {
+       
+    }
 
     
     @IBOutlet weak var ProbabilityChecker: UILabel!
 
     @IBAction func ProbabilityV1()
     {
-//        var probabilityCheckerFloat = Float
+        
     }
 //    
     @IBAction func FactorialFunction()

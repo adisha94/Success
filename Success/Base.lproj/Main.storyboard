@@ -180,25 +180,6 @@
             </objects>
             <point key="canvasLocation" x="1056" y="287"/>
         </scene>
-        <!--Simple Probability-->
-        <scene sceneID="lQ4-eX-DJB">
-            <objects>
-                <viewController title="Simple Probability" id="8oE-2K-YkL" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Vu0-vZ-Xge"/>
-                        <viewControllerLayoutGuide type="bottom" id="WrQ-aM-ZjA"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="a2v-7I-QFq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="HB3-5f-eSA"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kVv-Xt-nfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1051" y="991"/>
-        </scene>
     </scenes>
     <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>

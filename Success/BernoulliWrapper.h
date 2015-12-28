@@ -9,9 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface BernoulliWrapper : NSObject
--(NSInteger) C: (NSInteger) chosen total: (NSInteger) total;
--(NSInteger) P: (NSInteger) chosen total: (NSInteger) total;
--(NSInteger) Factorial: (NSInteger) n;
--(float) Bernoulli: (NSInteger) n k: (NSInteger) k p: (NSInteger) p;
+-(int) C: (int) chosen total: (int) total;
+-(int) P: (int) chosen total: (int) total;
+-(float) Bernoulli: (NSInteger) n k: (NSInteger) k p: (float) p;
 -(float) SimpleProbability: (float) p q: (float) q;
 @end

@@ -10,8 +10,35 @@
 #import "Bernoulli.h"
 @implementation BernoulliWrapper
 
--(NSInteger) C: (NSInteger) chosen total: (NSInteger) total
+
+-(int) C: (int) chosen total: (int) total
 {
-    NSInteger combo = Factorial:chosen / (Factorial:(total - chosen)
+    int combo = Factorial(total) / Factorial(total - chosen);
+    return combo;
 }
+
+
+-(int) P: (int) chosen total: (int) total
+{
+    int permu = Factorial(total) / Factorial(total - chosen);
+    return permu;
+}
+
+-(float) Bernoulli: (NSInteger) n k: (NSInteger) k p: (float) p
+{
+    float result = Bernoulli(n, k, p);
+    return result;
+}
+
+
+float SimpleProbability (float p, float q)
+{
+    float answer = p / q;
+    NSLog(@"The answer is: \t %f", answer);
+    return answer;
+}
+
+
+
+
 @end

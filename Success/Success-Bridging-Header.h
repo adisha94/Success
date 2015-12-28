@@ -13,3 +13,4 @@
  */
 
 #include "TestingCppClassWrapper.h"
+#include "BernoulliWrapper.h"

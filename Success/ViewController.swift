@@ -30,7 +30,7 @@ class ViewController: UIViewController
     
     @IBAction func BernoulliEquation()
     {
-       
+        
     }
 
     
@@ -45,12 +45,5 @@ class ViewController: UIViewController
     {
         print("Factorial Button pressed")
 //        Factorial(Int32(nStorage.text!)!)
-    }
-    
-    
-    @IBAction func ShowTestWorks()
-    {
-        
-        print("The C++ wrapper code worked");
     }
 }

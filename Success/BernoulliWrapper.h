@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface BernoulliWrapper : NSObject
+- (instancetype)initWithTitle:(NSString*)title;
 -(int) C: (int) chosen total: (int) total;
 -(int) P: (int) chosen total: (int) total;
 -(float) Bernoulli: (NSInteger) n k: (NSInteger) k p: (float) p;

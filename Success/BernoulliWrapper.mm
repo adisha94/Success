@@ -31,13 +31,11 @@
 }
 
 
-float SimpleProbability (float p, float q)
+-(float)SimpleProbability:(float)p q:(float)q
 {
-    float answer = p / q;
-    NSLog(@"The answer is: \t %f", answer);
-    return answer;
+    NSLog(@"The answer is: \t %f", p / q);
+    return p / q;
 }
-
 
 
 

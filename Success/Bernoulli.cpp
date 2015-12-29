@@ -8,7 +8,7 @@
 
 #include "Bernoulli.h"
 #include <limits.h>
-#include <math.h>
+//#include <math.h>
 int C (int chosen, int total)
 {
     int combo = Factorial(total) / ( Factorial(chosen) * Factorial(total - chosen) );

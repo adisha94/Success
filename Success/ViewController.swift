@@ -22,7 +22,7 @@ class ViewController: UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
     @IBOutlet weak var pStorage: UITextField!
     @IBOutlet weak var nStorage: UITextField!
     @IBOutlet weak var kStorage: UITextField!
@@ -38,12 +38,23 @@ class ViewController: UIViewController
 
     @IBAction func ProbabilityV1()
     {
-        
+        print("probability function button pressed")
     }
-//    
+    
     @IBAction func FactorialFunction()
     {
         print("Factorial Button pressed")
-//        Factorial(Int32(nStorage.text!)!)
     }
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
 }

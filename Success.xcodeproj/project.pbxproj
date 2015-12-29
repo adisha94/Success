@@ -250,9 +250,9 @@
 			isa = PBXGroup;
 			children = (
 				39EBD0851C2A4D2000DC4576 /* TestingCppClassWrapper.h */,
-				39EBD0861C2A4D2000DC4576 /* TestingCppClassWrapper.mm */,
 				39EBD0801C2A49E000DC4576 /* TestCpp.hpp */,
 				39EBD07F1C2A49E000DC4576 /* TestCpp.cpp */,
+				39EBD0861C2A4D2000DC4576 /* TestingCppClassWrapper.mm */,
 				39FC459F1C31FDBA00880D20 /* CustomObject.h */,
 				39FC45A01C31FDBA00880D20 /* CustomObject.m */,
 			);
@@ -937,6 +937,7 @@
 				39FC459B1C31FAA200880D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39FC459D1C31FAA200880D20 /* Build configuration list for PBXNativeTarget "Success WatchKit 1 Extension" */ = {
 			isa = XCConfigurationList;
@@ -945,6 +946,7 @@
 				39FC45991C31FAA200880D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

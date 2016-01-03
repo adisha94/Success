@@ -34,12 +34,12 @@ class ViewController: UIViewController
         longPressRec.addTarget(self, action: "longPressedView")
         rotateRec.addTarget(self, action: "rotatedView:")
         panRec.addTarget(self, action: "draggedView:")
-        tapView!.addGestureRecognizer(tapRec)
-        swipeView!.addGestureRecognizer(swipeRec)
-        pinchView!.addGestureRecognizer(pinchRec)
-        longPressView!.addGestureRecognizer(longPressRec)
-        rotateView!.addGestureRecognizer(rotateRec)
-        panView!.addGestureRecognizer(panRec)
+//        tapView!.addGestureRecognizer(tapRec)
+//        swipeView!.addGestureRecognizer(swipeRec)
+//        pinchView!.addGestureRecognizer(pinchRec)
+//        longPressView!.addGestureRecognizer(longPressRec)
+//        rotateView!.addGestureRecognizer(rotateRec)
+//        panView!.addGestureRecognizer(panRec)
 
     }
 
@@ -76,6 +76,12 @@ class ViewController: UIViewController
 
         qResult.textColor.colorWithAlphaComponent(2.34)
         qResult.text = ""
+    }
+    
+    @IBAction func Reset2()
+    {
+        print(" Q label has been reset to its initial conditions.")
+        
     }
 
 }

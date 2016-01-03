@@ -53,12 +53,6 @@ class ViewController: UIViewController
     @IBOutlet weak var nStorage: UITextField!
     @IBOutlet weak var kStorage: UITextField!
     @IBOutlet weak var qResult: UILabel!
-    
-    
-//    @IBAction func BernoulliEquation()
-//    {
-//        
-//    }
 
     
     @IBOutlet weak var ProbabilityChecker: UILabel!
@@ -77,7 +71,13 @@ class ViewController: UIViewController
     
     
     
+    @IBAction func Reset()
+    {
+        print(" Q label has been reset to its initial conditions.")
 
+        qResult.textColor.colorWithAlphaComponent(2.34)
+        qResult.text = ""
+    }
     
     
     
@@ -92,54 +92,5 @@ class ViewController: UIViewController
     
     
     
-    // gesture functions for application
 
-    
-    func tappedView()
-    {
-        let tapAlert = UIAlertController(title: "Tapped", message: "You just tapped the tap view", preferredStyle: UIAlertControllerStyle.Alert)
-        tapAlert.addAction(UIAlertAction(title: "OK", style: .Destructive, handler: nil))
-        self.presentViewController(tapAlert, animated: true, completion: nil)
-    }
-    
-    func swipedView()
-    {
-        let tapAlert = UIAlertController(title: "Swiped", message: "You just swiped the swipe view", preferredStyle: UIAlertControllerStyle.Alert)
-        tapAlert.addAction(UIAlertAction(title: "OK", style: .Destructive, handler: nil))
-        self.presentViewController(tapAlert, animated: true, completion: nil)
-    }
-    
-    func longPressedView()
-    {
-        let tapAlert = UIAlertController(title: "Long Pressed", message: "You just long pressed the long press view", preferredStyle: UIAlertControllerStyle.Alert)
-        tapAlert.addAction(UIAlertAction(title: "OK", style: .Destructive, handler: nil))
-        self.presentViewController(tapAlert, animated: true, completion: nil)
-    }
-    
-    
-    
-    func rotatedView(sender:UIRotationGestureRecognizer)
-    {
-        var lastRotation = CGFloat()
-        self.view.bringSubviewToFront(rotateView!)
-        if(sender.state == UIGestureRecognizerState.Ended){
-            lastRotation = 0.0;
-        }
-        let rotation = 0.0 - (lastRotation - sender.rotation)
-        _ = rotateRec.locationInView(rotateView)
-        let currentTrans = sender.view!.transform
-        let newTrans = CGAffineTransformRotate(currentTrans, rotation)
-        sender.view!.transform = newTrans
-        lastRotation = sender.rotation
-    }
-    
-    
-    func draggedView(sender:UIPanGestureRecognizer)
-    {
-        self.view.bringSubviewToFront(sender.view!)
-        let translation = sender.translationInView(self.view)
-        sender.view!.center = CGPointMake(sender.view!.center.x + translation.x, sender.view!.center.y + translation.y)
-        sender.setTranslation(CGPointZero, inView: self.view)
-    }
-    
 }

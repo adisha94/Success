@@ -239,7 +239,6 @@
 			children = (
 				39EBD08D1C2A511D00DC4576 /* C++ Files */,
 				39EBD08C1C2A50D800DC4576 /* Swift Files */,
-				39EBD08B1C2A50C300DC4576 /* Testing C++ Files */,
 				398BA4EC1BD80E3100E481FF /* Products */,
 				398BA4F21BD80E3100E481FF /* Main.storyboard */,
 				398BA4F81BD80E3100E481FF /* Assets.xcassets */,
@@ -323,6 +322,7 @@
 				39E78DD01C39D03700247028 /* Exponentiation.swift */,
 				398BA5261BD81C2B00E481FF /* OtherController.swift */,
 				39FC45A21C3200FB00880D20 /* SomeSwiftFile.swift */,
+				39EBD08B1C2A50C300DC4576 /* Testing C++ Files */,
 			);
 			name = "Swift Files";
 			sourceTree = "<group>";

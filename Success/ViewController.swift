@@ -34,13 +34,6 @@ class ViewController: UIViewController
         longPressRec.addTarget(self, action: "longPressedView")
         rotateRec.addTarget(self, action: "rotatedView:")
         panRec.addTarget(self, action: "draggedView:")
-//        tapView!.addGestureRecognizer(tapRec)
-//        swipeView!.addGestureRecognizer(swipeRec)
-//        pinchView!.addGestureRecognizer(pinchRec)
-//        longPressView!.addGestureRecognizer(longPressRec)
-//        rotateView!.addGestureRecognizer(rotateRec)
-//        panView!.addGestureRecognizer(panRec)
-
     }
 
     override func didReceiveMemoryWarning()
@@ -59,13 +52,13 @@ class ViewController: UIViewController
     @IBOutlet weak var factorialAnswer: UILabel!
     @IBAction func ProbabilityV1()
     {
-        print("probability function button pressed")
+        print("Probability Function button pressed")
         factorialAnswer.text = "button pressed"
     }
     
     @IBAction func FactorialFunction()
     {
-        print("Factorial Button pressed")
+        print("Factorial Function Button pressed")
     }
     
     
@@ -83,5 +76,6 @@ class ViewController: UIViewController
         print(" Q label has been reset to its initial conditions.")
         
     }
+    
 
 }

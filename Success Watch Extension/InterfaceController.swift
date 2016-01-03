@@ -7,11 +7,13 @@
 //
 
 import WatchKit
+import UIKit
 import Foundation
 
 
 class InterfaceController: WKInterfaceController
 {
+    @IBOutlet var qPhoneStorage: WKInterfaceLabel!
 
     override func awakeWithContext(context: AnyObject?)
     {
@@ -27,15 +29,19 @@ class InterfaceController: WKInterfaceController
         super.willActivate()
     }
 
-    override func didDeactivate() {
+    override func didDeactivate()
+    {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
     
     @IBAction func Action()
     {
-        
+        print("Watch feature available soon")
+        // get data from phone for this function
     }
-    @IBOutlet var qPhoneStorage: WKInterfaceLabel!
+    
+    
+
     
 }

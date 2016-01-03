@@ -10,8 +10,11 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Success_Watch" customModuleProvider="target">
                     <items>
+                        <label width="136" alignment="left" text="Welcome" id="ahG-xz-Ndt"/>
                         <button width="1" alignment="left" title="Proceed" id="NVU-bc-r1P">
-                            <fontDescription key="font" type="system" weight="thin" pointSize="15"/>
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="system" weight="semibold" pointSize="15"/>
                             <connections>
                                 <segue destination="4th-UC-Ghv" kind="push" id="8aP-do-Nh8"/>
                             </connections>
@@ -26,12 +29,7 @@
             <objects>
                 <controller id="4th-UC-Ghv" customClass="InterfaceController" customModule="Success_Watch_Extension">
                     <items>
-                        <button width="1" alignment="left" title="Back" id="gaA-g7-uMF">
-                            <connections>
-                                <segue destination="AgC-eL-Hgc" kind="push" id="4jZ-Iv-m0W"/>
-                            </connections>
-                        </button>
-                        <button width="1" alignment="left" title="Action" id="97x-IW-BEs" colorLabel="IBBuiltInLabel-Green">
+                        <button width="1" height="21.5" alignment="left" title="Action" id="97x-IW-BEs" colorLabel="IBBuiltInLabel-Green">
                             <color key="titleColor" red="0.049039170145988464" green="0.12365934997797012" blue="0.065874233841896057" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <color key="backgroundColor" red="0.0" green="0.97254908080000002" blue="0.5411764979" alpha="1" colorSpace="deviceRGB"/>
                             <fontDescription key="font" type="italicSystem" weight="heavy" pointSize="15"/>
@@ -40,12 +38,43 @@
                             </connections>
                         </button>
                         <separator width="136" alignment="left" id="5BS-b8-Xe8"/>
-                        <label width="131" alignment="left" text="Phone Result" id="1ID-bl-GHK"/>
+                        <label width="131" alignment="left" text="Phone Result Q" id="1ID-bl-GHK"/>
                         <label height="19.5" alignment="left" text="Result" id="fmq-pc-7cA"/>
+                        <separator alignment="left" id="bO6-wd-yRf"/>
+                        <button width="1" alignment="left" title="Proceed" id="HfL-oJ-jKT">
+                            <connections>
+                                <segue destination="L3s-7L-8sv" kind="push" id="7YM-xh-zmP"/>
+                            </connections>
+                        </button>
                     </items>
+                    <connections>
+                        <outlet property="qPhoneStorage" destination="fmq-pc-7cA" id="5BR-HR-XrL"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="402" y="345"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="Ugs-3O-aYe">
+            <objects>
+                <controller id="L3s-7L-8sv" customClass="InterfaceController" customModule="Success_Watch_Extension">
+                    <items>
+                        <button width="1" alignment="left" title="Previous" id="CDa-cL-NWO">
+                            <connections>
+                                <segue destination="4th-UC-Ghv" kind="modal" id="gxh-Hh-PDs"/>
+                            </connections>
+                        </button>
+                        <table alignment="left" id="XUZ-XT-fSX">
+                            <items>
+                                <tableRow id="vPU-zD-MuK">
+                                    <group key="rootItem" width="1" height="106.5" alignment="left" id="4CJ-KP-faH"/>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="606" y="346"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -71,4 +100,7 @@
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="gxh-Hh-PDs"/>
+    </inferredMetricsTieBreakers>
 </document>

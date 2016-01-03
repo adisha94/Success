@@ -4,15 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bernoul.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Complication - Success Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>Glance - Success WatchKit 1 App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>Notification - Success Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Notification - Success WatchKit 1 App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+		<key>Success Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>Success WatchKit 1 App.xcscheme</key>
 		<dict>
@@ -48,6 +68,16 @@
 			<true/>
 		</dict>
 		<key>398BA50C1BD80E3200E481FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39E78DD61C39D77800247028</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>39E78DE01C39D7D200247028</key>
 		<dict>
 			<key>primary</key>
 			<true/>

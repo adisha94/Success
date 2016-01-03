@@ -23,6 +23,15 @@
 		398BA5271BD81C2B00E481FF /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5261BD81C2B00E481FF /* OtherController.swift */; };
 		39E78DCF1C39CC6B00247028 /* BernoulliSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E78DCE1C39CC6B00247028 /* BernoulliSwift.swift */; };
 		39E78DD11C39D03700247028 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E78DD01C39D03700247028 /* Exponentiation.swift */; };
+		39E78DE51C39D7D200247028 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E78DE31C39D7D200247028 /* Interface.storyboard */; };
+		39E78DE71C39D7D200247028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E78DE61C39D7D200247028 /* Assets.xcassets */; };
+		39E78DEE1C39D7D300247028 /* Success Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 39E78DED1C39D7D300247028 /* Success Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		39E78DF51C39D7D300247028 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E78DF41C39D7D300247028 /* InterfaceController.swift */; };
+		39E78DF71C39D7D300247028 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E78DF61C39D7D300247028 /* ExtensionDelegate.swift */; };
+		39E78DF91C39D7D300247028 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E78DF81C39D7D300247028 /* NotificationController.swift */; };
+		39E78DFB1C39D7D300247028 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E78DFA1C39D7D300247028 /* ComplicationController.swift */; };
+		39E78DFD1C39D7D300247028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E78DFC1C39D7D300247028 /* Assets.xcassets */; };
+		39E78E011C39D7D300247028 /* Success Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 39E78DE11C39D7D200247028 /* Success Watch.app */; };
 		39EBD0811C2A49E000DC4576 /* TestCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39EBD07F1C2A49E000DC4576 /* TestCpp.cpp */; };
 		39EBD0871C2A4D2000DC4576 /* TestingCppClassWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39EBD0861C2A4D2000DC4576 /* TestingCppClassWrapper.mm */; };
 		39FC45A11C31FDBA00880D20 /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FC45A01C31FDBA00880D20 /* CustomObject.m */; };
@@ -44,6 +53,20 @@
 			remoteGlobalIDString = 398BA4EA1BD80E3100E481FF;
 			remoteInfo = Success;
 		};
+		39E78DEF1C39D7D300247028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398BA4E31BD80E3100E481FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39E78DEC1C39D7D300247028;
+			remoteInfo = "Success Watch Extension";
+		};
+		39E78DFF1C39D7D300247028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398BA4E31BD80E3100E481FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39E78DE01C39D7D200247028;
+			remoteInfo = "Success Watch";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +78,28 @@
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		39E78E051C39D7D300247028 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				39E78DEE1C39D7D300247028 /* Success Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E78E091C39D7D300247028 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				39E78E011C39D7D300247028 /* Success Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		39FC459E1C31FAA200880D20 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -95,7 +140,18 @@
 		39E78DCB1C39A24B00247028 /* GestureRecognizers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureRecognizers.h; sourceTree = "<group>"; };
 		39E78DCE1C39CC6B00247028 /* BernoulliSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BernoulliSwift.swift; sourceTree = "<group>"; };
 		39E78DD01C39D03700247028 /* Exponentiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exponentiation.swift; sourceTree = "<group>"; };
-		39EBD0751C2A439100DC4576 /* Settings-Watch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "Settings-Watch.bundle"; path = "SuccessTests/Settings-Watch.bundle"; sourceTree = SOURCE_ROOT; };
+		39E78DE11C39D7D200247028 /* Success Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Success Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E78DE41C39D7D200247028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		39E78DE61C39D7D200247028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39E78DE81C39D7D200247028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E78DED1C39D7D300247028 /* Success Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Success Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E78DF31C39D7D300247028 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		39E78DF41C39D7D300247028 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		39E78DF61C39D7D300247028 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		39E78DF81C39D7D300247028 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		39E78DFA1C39D7D300247028 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		39E78DFC1C39D7D300247028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39E78DFE1C39D7D300247028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39EBD07F1C2A49E000DC4576 /* TestCpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestCpp.cpp; sourceTree = "<group>"; };
 		39EBD0801C2A49E000DC4576 /* TestCpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestCpp.hpp; sourceTree = "<group>"; };
 		39EBD0851C2A4D2000DC4576 /* TestingCppClassWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestingCppClassWrapper.h; sourceTree = "<group>"; };
@@ -134,6 +190,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39E78DEA1C39D7D300247028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -152,6 +215,8 @@
 				398BA5051BD80E3200E481FF /* SuccessTests */,
 				398BA5101BD80E3200E481FF /* SuccessUITests */,
 				393830511BE87C520099FD96 /* Tester */,
+				39E78DE21C39D7D200247028 /* Success Watch */,
+				39E78DF11C39D7D300247028 /* Success Watch Extension */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +227,8 @@
 				398BA5021BD80E3200E481FF /* SuccessTests.xctest */,
 				398BA50D1BD80E3200E481FF /* SuccessUITests.xctest */,
 				393830501BE87C520099FD96 /* Tester */,
+				39E78DE11C39D7D200247028 /* Success Watch.app */,
+				39E78DED1C39D7D300247028 /* Success Watch Extension.appex */,
 			);
 			name = Products;
 			path = ..;
@@ -174,7 +241,6 @@
 				39EBD08C1C2A50D800DC4576 /* Swift Files */,
 				39EBD08B1C2A50C300DC4576 /* Testing C++ Files */,
 				398BA4EC1BD80E3100E481FF /* Products */,
-				39EBD0751C2A439100DC4576 /* Settings-Watch.bundle */,
 				398BA4F21BD80E3100E481FF /* Main.storyboard */,
 				398BA4F81BD80E3100E481FF /* Assets.xcassets */,
 				398BA4FA1BD80E3100E481FF /* LaunchScreen.storyboard */,
@@ -201,6 +267,38 @@
 				398BA5131BD80E3200E481FF /* Info.plist */,
 			);
 			path = SuccessUITests;
+			sourceTree = "<group>";
+		};
+		39E78DE21C39D7D200247028 /* Success Watch */ = {
+			isa = PBXGroup;
+			children = (
+				39E78DE31C39D7D200247028 /* Interface.storyboard */,
+				39E78DE61C39D7D200247028 /* Assets.xcassets */,
+				39E78DE81C39D7D200247028 /* Info.plist */,
+			);
+			path = "Success Watch";
+			sourceTree = "<group>";
+		};
+		39E78DF11C39D7D300247028 /* Success Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				39E78DF41C39D7D300247028 /* InterfaceController.swift */,
+				39E78DF61C39D7D300247028 /* ExtensionDelegate.swift */,
+				39E78DF81C39D7D300247028 /* NotificationController.swift */,
+				39E78DFA1C39D7D300247028 /* ComplicationController.swift */,
+				39E78DFC1C39D7D300247028 /* Assets.xcassets */,
+				39E78DFE1C39D7D300247028 /* Info.plist */,
+				39E78DF21C39D7D300247028 /* Supporting Files */,
+			);
+			path = "Success Watch Extension";
+			sourceTree = "<group>";
+		};
+		39E78DF21C39D7D300247028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E78DF31C39D7D300247028 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		39EBD08B1C2A50C300DC4576 /* Testing C++ Files */ = {
@@ -286,10 +384,12 @@
 				398BA4E81BD80E3100E481FF /* Frameworks */,
 				398BA4E91BD80E3100E481FF /* Resources */,
 				39FC459E1C31FAA200880D20 /* Embed App Extensions */,
+				39E78E091C39D7D300247028 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				39E78E001C39D7D300247028 /* PBXTargetDependency */,
 			);
 			name = Success;
 			productName = Success;
@@ -332,6 +432,40 @@
 			productReference = 398BA50D1BD80E3200E481FF /* SuccessUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		39E78DE01C39D7D200247028 /* Success Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E78E061C39D7D300247028 /* Build configuration list for PBXNativeTarget "Success Watch" */;
+			buildPhases = (
+				39E78DDF1C39D7D200247028 /* Resources */,
+				39E78E051C39D7D300247028 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39E78DF01C39D7D300247028 /* PBXTargetDependency */,
+			);
+			name = "Success Watch";
+			productName = "Success Watch";
+			productReference = 39E78DE11C39D7D200247028 /* Success Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		39E78DEC1C39D7D300247028 /* Success Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E78E021C39D7D300247028 /* Build configuration list for PBXNativeTarget "Success Watch Extension" */;
+			buildPhases = (
+				39E78DE91C39D7D300247028 /* Sources */,
+				39E78DEA1C39D7D300247028 /* Frameworks */,
+				39E78DEB1C39D7D300247028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Success Watch Extension";
+			productName = "Success Watch Extension";
+			productReference = 39E78DED1C39D7D300247028 /* Success Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -356,6 +490,12 @@
 						CreatedOnToolsVersion = 7.0.1;
 						TestTargetID = 398BA4EA1BD80E3100E481FF;
 					};
+					39E78DE01C39D7D200247028 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					39E78DEC1C39D7D300247028 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 				};
 			};
 			buildConfigurationList = 398BA4E61BD80E3100E481FF /* Build configuration list for PBXProject "Success" */;
@@ -375,6 +515,8 @@
 				398BA5011BD80E3200E481FF /* SuccessTests */,
 				398BA50C1BD80E3200E481FF /* SuccessUITests */,
 				3938304F1BE87C520099FD96 /* Tester */,
+				39E78DE01C39D7D200247028 /* Success Watch */,
+				39E78DEC1C39D7D300247028 /* Success Watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -401,6 +543,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E78DDF1C39D7D200247028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E78DE71C39D7D200247028 /* Assets.xcassets in Resources */,
+				39E78DE51C39D7D200247028 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E78DEB1C39D7D300247028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E78DFD1C39D7D300247028 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +611,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39E78DE91C39D7D300247028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E78DF91C39D7D300247028 /* NotificationController.swift in Sources */,
+				39E78DFB1C39D7D300247028 /* ComplicationController.swift in Sources */,
+				39E78DF71C39D7D300247028 /* ExtensionDelegate.swift in Sources */,
+				39E78DF51C39D7D300247028 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -464,6 +634,16 @@
 			isa = PBXTargetDependency;
 			target = 398BA4EA1BD80E3100E481FF /* Success */;
 			targetProxy = 398BA50E1BD80E3200E481FF /* PBXContainerItemProxy */;
+		};
+		39E78DF01C39D7D300247028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39E78DEC1C39D7D300247028 /* Success Watch Extension */;
+			targetProxy = 39E78DEF1C39D7D300247028 /* PBXContainerItemProxy */;
+		};
+		39E78E001C39D7D300247028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39E78DE01C39D7D200247028 /* Success Watch */;
+			targetProxy = 39E78DFF1C39D7D300247028 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -482,6 +662,14 @@
 				398BA4FB1BD80E3100E481FF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		39E78DE31C39D7D200247028 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39E78DE41C39D7D200247028 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -543,7 +731,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -582,7 +770,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -601,6 +789,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Success/Success-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -614,6 +803,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MSI.Success;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Success/Success-Bridging-Header.h";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -665,6 +855,68 @@
 			};
 			name = Release;
 		};
+		39E78E031C39D7D300247028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Success Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MSI.Success.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos2.1;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		39E78E041C39D7D300247028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "Success Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MSI.Success.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos2.1;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		39E78E071C39D7D300247028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Success_Watch_Extension;
+				INFOPLIST_FILE = "Success Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MSI.Success.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		39E78E081C39D7D300247028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Success_Watch_Extension;
+				INFOPLIST_FILE = "Success Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MSI.Success.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -712,6 +964,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		39E78E021C39D7D300247028 /* Build configuration list for PBXNativeTarget "Success Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E78E031C39D7D300247028 /* Debug */,
+				39E78E041C39D7D300247028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39E78E061C39D7D300247028 /* Build configuration list for PBXNativeTarget "Success Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E78E071C39D7D300247028 /* Debug */,
+				39E78E081C39D7D300247028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 

@@ -7,7 +7,6 @@
 //
 
 import Foundation
-
 class Bernoulli_Swift
 {
     func C ( chosen: Int, total: Int) -> Int
@@ -26,28 +25,29 @@ class Bernoulli_Swift
     func Factorial (n: Int) -> Int
     {
     // user inputs value for n
-        var answer: Int = 1;
+        var answer: Int = 1
         if (n == 0 || n == 1)
         {
-            return answer;
+            return answer
         }
         else
         {
-            return answer = n * Factorial(n - 1);
+            answer = n * Factorial(n - 1);
+            return answer
         }
     }
     
     
-    float Bernoulli (int n, int k, float p)
+    func Bernoulli (int n: Int, int k: Int, float p: Float) -> Float
     {
-    float q = 1 - p;
-    float Bernoulli = C(n,k) * pow(p,k) * pow(q, n-k); // check for error
-    return Bernoulli;
+        let q: Float = 1 - p;
+        var Bernoulli_var: Float = C(n,total: k) * pow(k,k) * pow(k, n-k); // check for error
+        return Bernoulli_var;
     }
     
     
     float SimpleProbability (float p, float q)
     {
-    return p / q;
+        return p / q;
     }
 }

@@ -22,6 +22,7 @@
 		398BA5121BD80E3200E481FF /* SuccessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5111BD80E3200E481FF /* SuccessUITests.swift */; };
 		398BA5271BD81C2B00E481FF /* OtherController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BA5261BD81C2B00E481FF /* OtherController.swift */; };
 		39E78DCF1C39CC6B00247028 /* BernoulliSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E78DCE1C39CC6B00247028 /* BernoulliSwift.swift */; };
+		39E78DD11C39D03700247028 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E78DD01C39D03700247028 /* Exponentiation.swift */; };
 		39EBD0811C2A49E000DC4576 /* TestCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39EBD07F1C2A49E000DC4576 /* TestCpp.cpp */; };
 		39EBD0871C2A4D2000DC4576 /* TestingCppClassWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39EBD0861C2A4D2000DC4576 /* TestingCppClassWrapper.mm */; };
 		39FC45A11C31FDBA00880D20 /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FC45A01C31FDBA00880D20 /* CustomObject.m */; };
@@ -93,6 +94,7 @@
 		398BA5261BD81C2B00E481FF /* OtherController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherController.swift; sourceTree = "<group>"; };
 		39E78DCB1C39A24B00247028 /* GestureRecognizers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureRecognizers.h; sourceTree = "<group>"; };
 		39E78DCE1C39CC6B00247028 /* BernoulliSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BernoulliSwift.swift; sourceTree = "<group>"; };
+		39E78DD01C39D03700247028 /* Exponentiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exponentiation.swift; sourceTree = "<group>"; };
 		39EBD0751C2A439100DC4576 /* Settings-Watch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "Settings-Watch.bundle"; path = "SuccessTests/Settings-Watch.bundle"; sourceTree = SOURCE_ROOT; };
 		39EBD07F1C2A49E000DC4576 /* TestCpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestCpp.cpp; sourceTree = "<group>"; };
 		39EBD0801C2A49E000DC4576 /* TestCpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TestCpp.hpp; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				398BA4EE1BD80E3100E481FF /* AppDelegate.swift */,
 				39E78DCE1C39CC6B00247028 /* BernoulliSwift.swift */,
 				398BA4F01BD80E3100E481FF /* ViewController.swift */,
+				39E78DD01C39D03700247028 /* Exponentiation.swift */,
 				398BA5261BD81C2B00E481FF /* OtherController.swift */,
 				39FC45A21C3200FB00880D20 /* SomeSwiftFile.swift */,
 			);
@@ -418,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E78DD11C39D03700247028 /* Exponentiation.swift in Sources */,
 				398BA4F11BD80E3100E481FF /* ViewController.swift in Sources */,
 				39EBD0871C2A4D2000DC4576 /* TestingCppClassWrapper.mm in Sources */,
 				39FC45A11C31FDBA00880D20 /* CustomObject.m in Sources */,

@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import Darwin
+
 class Bernoulli_Swift
 {
     func C ( chosen: Int, total: Int) -> Int
@@ -41,12 +43,12 @@ class Bernoulli_Swift
     func Bernoulli (int n: Int, int k: Int, float p: Float) -> Float
     {
         let q: Float = 1 - p;
-        var Bernoulli_var: Float = C(n,total: k) * pow(k,k) * pow(k, n-k); // check for error
+        var Bernoulli_var: Float = C(n,total: k) * pow(p,k) * pow(q, n-k); // check for error
         return Bernoulli_var;
     }
     
     
-    float SimpleProbability (float p, float q)
+    func SimpleProbability (p: Float, q: Float) -> Float
     {
         return p / q;
     }

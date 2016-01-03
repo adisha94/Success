@@ -13,5 +13,4 @@
  */
 
 #include "TestingCppClassWrapper.h"
-#import "BernoulliWrapper.h"
 #import "CustomObject.h"

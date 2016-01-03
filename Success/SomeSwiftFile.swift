@@ -6,7 +6,6 @@
 //  Copyright © 2015 Mega Saga Industries. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 var instanceOfCustomObject: CustomObject = CustomObject()

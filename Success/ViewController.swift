@@ -54,7 +54,6 @@ class ViewController: UIViewController
     @IBOutlet weak var kStorage: UITextField!
     @IBOutlet weak var qResult: UILabel!
 
-    
     @IBOutlet weak var ProbabilityChecker: UILabel!
 
     @IBOutlet weak var factorialAnswer: UILabel!
@@ -78,4 +77,5 @@ class ViewController: UIViewController
         qResult.textColor.colorWithAlphaComponent(2.34)
         qResult.text = ""
     }
+
 }

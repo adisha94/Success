@@ -68,7 +68,8 @@ class ViewController: UIViewController
         print(" Q label has been reset to its initial conditions.")
 
         qResult.textColor.colorWithAlphaComponent(2.34)
-        qResult.text = ""
+        qResult.text = "Resetted"
+        qResult.text = "--------"
     }
     
     @IBAction func Reset2()

@@ -78,19 +78,4 @@ class ViewController: UIViewController
         qResult.textColor.colorWithAlphaComponent(2.34)
         qResult.text = ""
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
 }

@@ -14,7 +14,8 @@ class ComplicationController: NSObject, CLKComplicationDataSource
     
     // MARK: - Timeline Configuration
     
-    func getSupportedTimeTravelDirectionsForComplication(complication: CLKComplication, withHandler handler: (CLKComplicationTimeTravelDirections) -> Void) {
+    func getSupportedTimeTravelDirectionsForComplication(complication: CLKComplication, withHandler handler: (CLKComplicationTimeTravelDirections) -> Void)
+    {
         handler([.Forward, .Backward])
     }
     
@@ -35,7 +36,8 @@ class ComplicationController: NSObject, CLKComplicationDataSource
     
     // MARK: - Timeline Population
     
-    func getCurrentTimelineEntryForComplication(complication: CLKComplication, withHandler handler: ((CLKComplicationTimelineEntry?) -> Void)) {
+    func getCurrentTimelineEntryForComplication(complication: CLKComplication, withHandler handler: ((CLKComplicationTimelineEntry?) -> Void))
+    {
         // Call the handler with the current timeline entry
         handler(nil)
     }

@@ -7,7 +7,6 @@
 //
 
 import WatchKit
-import UIKit
 import Foundation
 
 

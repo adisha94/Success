@@ -18,22 +18,30 @@ class ViewController: UIViewController, UITextFieldDelegate
     @IBOutlet var rotateView: UIView?
     @IBOutlet var panView: UIView?
     var lastRotation = CGFloat()
-    let tapRec = UITapGestureRecognizer()
-    let pinchRec = UIPinchGestureRecognizer()
-    let swipeRec = UISwipeGestureRecognizer()
-    let longPressRec = UILongPressGestureRecognizer()
-    let rotateRec = UIRotationGestureRecognizer()
-    let panRec = UIPanGestureRecognizer()
+//    let tapRec = UITapGestureRecognizer()
+//    let pinchRec = UIPinchGestureRecognizer()
+//    let swipeRec = UISwipeGestureRecognizer()
+//    let longPressRec = UILongPressGestureRecognizer()
+//    let rotateRec = UIRotationGestureRecognizer()
+//    let panRec = UIPanGestureRecognizer()
+    
+    @IBOutlet weak var pStorage: UITextField!
+    @IBOutlet weak var nStorage: UITextField!
+    @IBOutlet weak var kStorage: UITextField!
+    @IBOutlet weak var qResult: UILabel!
 
+    @IBOutlet weak var ProbabilityChecker: UILabel!
+
+    @IBOutlet weak var factorialAnswer: UILabel!
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        tapRec.addTarget(self, action: "tappedView")
-        pinchRec.addTarget(self, action: "pinchedView:")
-        swipeRec.addTarget(self, action: "swipedView")
-        longPressRec.addTarget(self, action: "longPressedView")
-        rotateRec.addTarget(self, action: "rotatedView:")
-        panRec.addTarget(self, action: "draggedView:")
+//        tapRec.addTarget(self, action: "tappedView")
+//        pinchRec.addTarget(self, action: "pinchedView:")
+//        swipeRec.addTarget(self, action: "swipedView")
+//        longPressRec.addTarget(self, action: "longPressedView")
+//        rotateRec.addTarget(self, action: "rotatedView:")
+//        panRec.addTarget(self, action: "draggedView:")
         
          self.pStorage.delegate = self;
          self.nStorage.delegate = self;
@@ -45,18 +53,11 @@ class ViewController: UIViewController, UITextFieldDelegate
 
     override func didReceiveMemoryWarning()
     {
-        super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        super.didReceiveMemoryWarning()
     }
     
-    @IBOutlet weak var pStorage: UITextField!
-    @IBOutlet weak var nStorage: UITextField!
-    @IBOutlet weak var kStorage: UITextField!
-    @IBOutlet weak var qResult: UILabel!
 
-    @IBOutlet weak var ProbabilityChecker: UILabel!
-
-    @IBOutlet weak var factorialAnswer: UILabel!
     @IBAction func ProbabilityV1()
     {
         print("Probability Function button pressed")

@@ -208,6 +208,15 @@
 			path = Tester;
 			sourceTree = "<group>";
 		};
+		39672E6E1C3B413A00FD032B /* Success Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				39E78DE21C39D7D200247028 /* Success Watch */,
+				39E78DF11C39D7D300247028 /* Success Watch Extension */,
+			);
+			name = "Success Watch App";
+			sourceTree = "<group>";
+		};
 		398BA4E21BD80E3100E481FF = {
 			isa = PBXGroup;
 			children = (
@@ -215,8 +224,7 @@
 				398BA5051BD80E3200E481FF /* SuccessTests */,
 				398BA5101BD80E3200E481FF /* SuccessUITests */,
 				393830511BE87C520099FD96 /* Tester */,
-				39E78DE21C39D7D200247028 /* Success Watch */,
-				39E78DF11C39D7D300247028 /* Success Watch Extension */,
+				39672E6E1C3B413A00FD032B /* Success Watch App */,
 			);
 			sourceTree = "<group>";
 		};
@@ -972,6 +980,7 @@
 				39E78E041C39D7D300247028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39E78E061C39D7D300247028 /* Build configuration list for PBXNativeTarget "Success Watch" */ = {
 			isa = XCConfigurationList;
@@ -980,6 +989,7 @@
 				39E78E081C39D7D300247028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

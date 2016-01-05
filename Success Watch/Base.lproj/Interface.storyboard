@@ -19,7 +19,12 @@
                                 <segue destination="4th-UC-Ghv" kind="push" id="8aP-do-Nh8"/>
                             </connections>
                         </button>
+                        <separator alignment="left" id="ydh-br-tPJ"/>
+                        <imageView width="134" height="85" alignment="left" image="/Users/Adish/Desktop/IMG_4865.jpg" id="a77-dz-eVr"/>
                     </items>
+                    <connections>
+                        <outlet property="Image" destination="a77-dz-eVr" id="uyw-f0-5Hb"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
@@ -64,13 +69,7 @@
                                 <segue destination="4th-UC-Ghv" kind="modal" id="gxh-Hh-PDs"/>
                             </connections>
                         </button>
-                        <table alignment="left" id="XUZ-XT-fSX">
-                            <items>
-                                <tableRow id="vPU-zD-MuK">
-                                    <group key="rootItem" width="1" height="106.5" alignment="left" id="4CJ-KP-faH"/>
-                                </tableRow>
-                            </items>
-                        </table>
+                        <table alignment="left" id="XUZ-XT-fSX"/>
                     </items>
                 </controller>
             </objects>

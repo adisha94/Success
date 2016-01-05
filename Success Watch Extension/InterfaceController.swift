@@ -41,7 +41,11 @@ class InterfaceController: WKInterfaceController
         // get data from phone for this function
     }
     
-    
+    @IBOutlet var image: WKInterfaceImage!
+    func setPicture()
+    {
+        
+    }
 
     
 }

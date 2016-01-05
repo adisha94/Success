@@ -27,4 +27,16 @@ class otherController: UIViewController
     {
         print("feature coming soon")
     }
+    
+    func dismissKeyBoardWithReturn(textField: UITextField) -> Bool
+    {
+        self.view.endEditing(true)
+        return false
+    }
+    
+    func dismissKeyboardWithTap(textFeild: UITextField)
+    {
+        view.endEditing(true)
+    }
+    
 }

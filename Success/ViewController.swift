@@ -9,7 +9,7 @@
 import UIKit
 
 
-class ViewController: UIViewController
+class ViewController: UIViewController, UITextFieldDelegate
 {
     @IBOutlet var tapView: UIView?
     @IBOutlet var swipeView: UIView?
@@ -34,6 +34,13 @@ class ViewController: UIViewController
         longPressRec.addTarget(self, action: "longPressedView")
         rotateRec.addTarget(self, action: "rotatedView:")
         panRec.addTarget(self, action: "draggedView:")
+        
+         self.pStorage.delegate = self;
+         self.nStorage.delegate = self;
+         self.kStorage.delegate = self;
+        
+        let tap: UIGestureRecognizer = UIGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
     }
 
     override func didReceiveMemoryWarning()
@@ -76,6 +83,18 @@ class ViewController: UIViewController
     {
         print(" Q label has been reset to its initial conditions.")
         
+    }
+    
+    
+    func dismissKeyBoardWithReturn(textField: UITextField) -> Bool
+    {
+        self.view.endEditing(true)
+        return false
+    }
+    
+    func dismissKeyboardWithTap(textFeild: UITextField)
+    {
+        view.endEditing(true)
     }
     
 

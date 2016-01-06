@@ -137,6 +137,7 @@
                         <outlet property="ProbabilityChecker" destination="6Ts-AU-fHk" id="PI1-D0-xiS"/>
                         <outlet property="factorialAnswer" destination="6Ts-AU-fHk" id="EYS-3H-Ymh"/>
                         <outlet property="kStorage" destination="G2I-gM-NzB" id="i4O-Dj-SQ4"/>
+                        <outlet property="longPressView" destination="5I7-Cu-YJm" id="SvP-3B-5Mj"/>
                         <outlet property="nStorage" destination="FiI-cT-GFv" id="Fdd-jh-S1A"/>
                         <outlet property="pStorage" destination="xYH-No-thp" id="eiv-qg-BvV"/>
                         <outlet property="qResult" destination="mVJ-eO-vgh" id="DHv-9j-0dG"/>

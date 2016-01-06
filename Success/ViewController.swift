@@ -11,17 +11,17 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate
 {
-    @IBOutlet var tapView: UIView?
-    @IBOutlet var swipeView: UIView?
+//    @IBOutlet var tapView: UIView?
+//    @IBOutlet var swipeView: UIView?
     @IBOutlet var longPressView: UIView?
-    @IBOutlet var pinchView: UIView?
-    @IBOutlet var rotateView: UIView?
-    @IBOutlet var panView: UIView?
+//    @IBOutlet var pinchView: UIView?
+//    @IBOutlet var rotateView: UIView?
+//    @IBOutlet var panView: UIView?
     var lastRotation = CGFloat()
 //    let tapRec = UITapGestureRecognizer()
 //    let pinchRec = UIPinchGestureRecognizer()
 //    let swipeRec = UISwipeGestureRecognizer()
-//    let longPressRec = UILongPressGestureRecognizer()
+    let longPressRec = UILongPressGestureRecognizer()
 //    let rotateRec = UIRotationGestureRecognizer()
 //    let panRec = UIPanGestureRecognizer()
     
@@ -39,7 +39,7 @@ class ViewController: UIViewController, UITextFieldDelegate
 //        tapRec.addTarget(self, action: "tappedView")
 //        pinchRec.addTarget(self, action: "pinchedView:")
 //        swipeRec.addTarget(self, action: "swipedView")
-//        longPressRec.addTarget(self, action: "longPressedView")
+        longPressRec.addTarget(self, action: "longPressedView")
 //        rotateRec.addTarget(self, action: "rotatedView:")
 //        panRec.addTarget(self, action: "draggedView:")
         

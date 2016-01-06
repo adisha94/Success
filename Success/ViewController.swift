@@ -24,7 +24,7 @@ class ViewController: UIViewController, UITextFieldDelegate
     let longPressRec = UILongPressGestureRecognizer()
 //    let rotateRec = UIRotationGestureRecognizer()
 //    let panRec = UIPanGestureRecognizer()
-    
+
     @IBOutlet weak var pStorage: UITextField!
     @IBOutlet weak var nStorage: UITextField!
     @IBOutlet weak var kStorage: UITextField!
@@ -98,5 +98,4 @@ class ViewController: UIViewController, UITextFieldDelegate
         view.endEditing(true)
     }
     
-
 }
